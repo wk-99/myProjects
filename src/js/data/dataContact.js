@@ -20,11 +20,6 @@ const dataContact = [
                 '../../assets/img/git.gif',
                 'https://github.com/wojciech-dev'
             ],
-            cv: [
-                'cv',
-                '../../assets/img/cv.gif',
-                'cv.pdf'
-            ]
         },
     }
 ];

@@ -1,4 +1,4 @@
-//positioning
+//position
 @mixin position($position, $args) {
     @each $o in top right bottom left {
       $i: index($args, $o);
@@ -20,22 +20,6 @@
 @mixin relative($args: '') {
     @include position(relative, $args);
 }
-
-/*
-
-.menu li {
-  @include relative;
-}
-
-.sub-menu {
-  @include absolute(top 100% left 0);
-}
-
-.sticky-bar {
-  @include fixed(top 0 left 0);
-}
-*/
-
 
 //media queries
 @mixin screen($size) {
@@ -63,22 +47,8 @@
       }
     }
   }
-  /*
-  .wrapper {
-  margin: 0 auto;
-  width: 100%;
-  @include screen('tablet') {
-    width: 90%;
-  }
-
-  @include screen('desktop') {
-    width: 85%;
-  }
-}
-  */
 
   //css3 keyframes
-
   @mixin keyframes($name) {
     @-webkit-keyframes #{$name} {
       @content;
@@ -93,18 +63,6 @@
     }
   }
 
-  /*
-@include keyframes(animate) {
-  50% {
-    transform: rotate(90deg);
-  }
-  100% {
-    transform: rotate(-90deg);
-  }
-}
-  */
-
-
   //Vertical centering
   @mixin center-vertically {
     position: absolute;
@@ -112,13 +70,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
-  /*
-.vc-box {
-  @include center-vertically;
-}
-  */
-
 
   //fonty
 @mixin font($size: false, $colour: false, $weight: false,  $line: false) {
@@ -129,7 +80,3 @@
     @if $weight { font-weight: $weight; }
     @if $line { line-height: $line; }
 }
-
-//p{
-//   @include font(20px, red, 700);
-//}

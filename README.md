@@ -14,6 +14,9 @@ One of the last versions of my portfolio. One page with a few projects.
 * WebPack 5
 * Git
 
+Preview site:
+<img src="http://propozycja.vot.pl/git/portfolio.jpg" alt="#">
+
 ## Demo online
 
 [Visit online](http://www.wojciech-kondraciuk.pl/)

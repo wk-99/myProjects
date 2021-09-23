@@ -9,10 +9,10 @@ const dataProjects = [
             'scss',
             'js',
             'webpack',
-            'external_API'
+            'API books'
         ],
         live: 'http://bookstore.vot.pl/',
-        source: 'https://github.com/wojciech-kondraciuk/JSshop',
+        source: 'https://github.com/wojciech-dev/JSshop',
         image: '../../assets/img/p1.png'
     },
     {
@@ -24,10 +24,10 @@ const dataProjects = [
             'scss',
             'js/es6',
             'webpack',
-            'external API'
+            'API recipes'
         ],
         live: 'http://itally.vot.pl/',
-        source: 'https://github.com/wojciech-kondraciuk/ItalianRestaurant',
+        source: 'https://github.com/wojciech-dev/ItalianRestaurant',
         image: '../../assets/img/p2.png'
     },
     {
@@ -41,8 +41,8 @@ const dataProjects = [
             'styled-components',
         ],
         live: 'http://react.vot.pl/',
-        source: 'https://github.com/wojciech-kondraciuk/buildUp',
-        image: '../../assets/img/p4.png'
+        source: 'https://github.com/wojciech-dev/buildUp',
+        image: '../../assets/img/p3.png'
     },
     {
         id: 4,
@@ -52,11 +52,11 @@ const dataProjects = [
             'html',
             'scss',
             'es6',
-            'webpack_5'
+            'webpack 4'
         ],
         live: '',
-        source: 'https://github.com/wojciech-kondraciuk/myProjects',
-        image: '../../assets/img/p7.png'
+        source: 'https://github.com/wojciech-dev/myProjects',
+        image: '../../assets/img/p4.png'
     },
     {
         id: 5,
@@ -65,26 +65,25 @@ const dataProjects = [
         use: [
             'php',
             'mysql',
-            'laravel',
+            'laravel 5',
         ],
         live: 'http://www.laravel.vot.pl/',
-        source: 'https://github.com/wojciech-kondraciuk/laravelPizza',
+        source: 'https://github.com/wojciech-dev/laravelPizza',
         image: '../../assets/img/p5.png'
     },
     {
         id: 6,
-        title: 'LinkPedia',
-        body: 'Application for aggregating interesting links from the Internet',
+        title: 'AbstraSpace',
+        body: 'Landong page presenting NFT tokens.',
         use: [
-            'php 7',
+            'php',
             'mysql',
-            'MVC',
-            'Klein / klein.php',
-            'twig'
+            'laravel 8',
+            'bootstrap'
         ],
-        live: 'http://link.vot.pl/',
-        source: 'https://github.com/wojciech-kondraciuk/php_oop_login_register',
-        image: '../../assets/img/p8.png'
+        live: 'http://abstranaut.vot.pl/',
+        source: 'https://github.com/wojciech-dev/abstranaut',
+        image: '../../assets/img/p6.png'
     },
     {
         id: 7,
@@ -99,8 +98,8 @@ const dataProjects = [
             'twig'
         ],
         live: 'http://mycms.vot.pl/pl/home',
-        source: 'https://github.com/wojciech-dev/php8_tests',
-        image: '../../assets/img/p6.png'
+        source: 'https://github.com/wojciech-dev/cmsRefactorCode',
+        image: '../../assets/img/p7.png'
     },
 ];
 
