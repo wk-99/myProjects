@@ -16,6 +16,13 @@ const dataSkills = [
             'React',
             'LARAVEL'
         ],
+        skillsHeadThree: 'Tools:',
+        skillsThree: [
+            'Windows',
+            'visual studio code',
+            'npm/composer',
+            'terminal',
+        ],
         image: '../../assets/img/int.png'
     }
 ];

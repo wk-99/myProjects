@@ -68,6 +68,7 @@ menuBTN.addEventListener('click', () => {
     }
 });
 
+/*close mobile menu */
 closebtn.addEventListener('click', () => {
     navContainer.style.width = '0%';
     menuBTN.checked = false;

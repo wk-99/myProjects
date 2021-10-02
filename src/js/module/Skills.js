@@ -5,7 +5,7 @@ const Render = () => {
     if (dataSkills.length === 0) {
         view += 'No description';
     } else {
-        dataSkills.forEach(({ title, image, skillsHeadOne, skillsOne, skillsHeadTwo, skillsTwo }) => {
+        dataSkills.forEach(({ title, image, skillsHeadOne, skillsOne, skillsHeadTwo, skillsTwo, skillsHeadThree, skillsThree }) => {
             view = `
                 <h2>${title}</h2>
                 <div class="skills_image">
@@ -21,6 +21,12 @@ const Render = () => {
                     <h3 class="skills_title">${skillsHeadTwo}</h3>
                     <ul class="skills_learn-list">
                         ${skillsTwo.map(item => `<li>${item}</li>`).join('')}
+                    </ul>
+                </div>
+                <div class="skills_soon">
+                    <h3 class="skills_title">${skillsHeadThree}</h3>
+                    <ul class="skills_learn-list">
+                        ${skillsThree.map(item => `<li>${item}</li>`).join('')}
                     </ul>
                 </div>
             `;
