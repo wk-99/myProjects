@@ -11,17 +11,21 @@ const dataSkills = [
             'GIT',
             'PHOTSHOP'
         ],
-        skillsHeadTwo: 'Comming soon:',
+        skillsHeadTwo: 'The basics:',
         skillsTwo: [
-            'React',
+            'React + Gatsby',
             'LARAVEL'
         ],
         skillsHeadThree: 'Tools:',
         skillsThree: [
             'Windows',
-            'visual studio code',
+            'Visual studio code',
             'npm/composer',
-            'terminal',
+            'Terminal',
+        ],
+        skillsHeadFour: 'Coming soon:',
+        skillsFour: [
+            'Node',
         ],
         image: '../../assets/img/int.png'
     }

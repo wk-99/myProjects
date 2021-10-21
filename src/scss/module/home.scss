@@ -44,4 +44,15 @@
             @include font(18);
         }
     }
+
+    &_body {
+        @include font(18, #ffffff, 400);
+        display: block;
+        margin: 40px 0px;
+        text-transform: uppercase;
+
+        @include screen('tablet') {
+            @include font(16);
+        }
+    }
 }
