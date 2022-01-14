@@ -97,7 +97,7 @@ const dataProjects = [
             'composer',
             'twig'
         ],
-        live: 'http://mycms.vot.pl/pl/home',
+        live: 'http://mycms.vot.pl/start',
         source: 'https://github.com/wojciech-dev/cmsRefactorCode',
         image: '../../assets/img/p7.png'
     },
