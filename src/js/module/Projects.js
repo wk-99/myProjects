@@ -40,7 +40,6 @@ const Render = () => {
                     </div>
                     <div class="project_buttons">
                         ${buttons()}
-
                     </div>
                 </div>
             </div>
