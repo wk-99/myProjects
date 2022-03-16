@@ -13,8 +13,8 @@ const dataSkills = [
         ],
         skillsHeadTwo: 'The basics:',
         skillsTwo: [
-            'React + Gatsby',
-            'LARAVEL'
+            'React',
+            'LARAVEL / SYMFONY'
         ],
         skillsHeadThree: 'Tools:',
         skillsThree: [
@@ -25,7 +25,7 @@ const dataSkills = [
         ],
         skillsHeadFour: 'Coming soon:',
         skillsFour: [
-            'Node',
+            'Node + frameworks',
         ],
         image: '../../assets/img/int.png'
     }
