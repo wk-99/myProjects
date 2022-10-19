@@ -60,19 +60,6 @@ const dataProjects = [
     },
     {
         id: 5,
-        title: 'Pizza Website',
-        body: 'Application in Laravel. Website with an administration panel.',
-        use: [
-            'php',
-            'mysql',
-            'laravel 5',
-        ],
-        live: 'http://www.laravel.vot.pl/',
-        source: 'https://github.com/wojciech-dev/laravelPizza',
-        image: '../../assets/img/p5.png'
-    },
-    {
-        id: 6,
         title: 'AbstraSpace',
         body: 'Landong page presenting NFT tokens.',
         use: [
@@ -86,7 +73,7 @@ const dataProjects = [
         image: '../../assets/img/p6.png'
     },
     {
-        id: 7,
+        id: 6,
         title: 'CMS system',
         body: 'Project in progress...',
         use: [
@@ -100,6 +87,21 @@ const dataProjects = [
         live: 'http://mycms.vot.pl/start',
         source: 'https://github.com/wojciech-dev/cmsRefactorCode',
         image: '../../assets/img/p7.png'
+    },
+    {
+        id: 7,
+        title: 'TailFood',
+        body: 'Application in Laravel. Website with an administration panel. Project in progress...',
+        use: [
+            'laravel 9',
+            'Jetstream',
+            'Livewire',
+            'mysql',
+            'tailwind'
+        ],
+        live: 'http://tailfood.vot.pl/',
+        source: 'https://github.com/wojciech-dev/laraWebsite',
+        image: '../../assets/img/p5.png'
     },
 ];
 
