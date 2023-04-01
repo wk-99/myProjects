@@ -4,8 +4,8 @@ const dataSkills = [
         title: 'Skills',
         skillsHeadOne: 'I know and still learning:',
         skillsOne: [
-            'HTML + HTML5 + BEM',
-            'CSS + SCSS + MODULES',
+            'HTML + HTML5',
+            'CSS + SCSS',
             'JS + ES6 / JQ',
             'PHP + MYSQL',
             'GIT',
@@ -13,8 +13,8 @@ const dataSkills = [
         ],
         skillsHeadTwo: 'The basics:',
         skillsTwo: [
-            'React',
-            'LARAVEL / SYMFONY'
+            'LARAVEL / SYMFONY',
+            'React'
         ],
         skillsHeadThree: 'Tools:',
         skillsThree: [
@@ -25,7 +25,7 @@ const dataSkills = [
         ],
         skillsHeadFour: 'Coming soon:',
         skillsFour: [
-            'Node + frameworks',
+            'Node',
         ],
         image: '../../assets/img/int.png'
     }
